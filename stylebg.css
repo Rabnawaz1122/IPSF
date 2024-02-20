@@ -1,0 +1,74 @@
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(236, 250, 109) 50%, rgb(255, 246, 247) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255, 255, 255, 0.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:550%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+.flage{
+
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4e/Istehkam-e-Pakistan_flag.jpg)  ;
+background-repeat: no-repeat;
+background-size: 100% 700px;
+
+}
+
+.logonav{
+
+  position: relative;left: 550px;
+  
+}
+/* .social1122:hover > .social1122 > ul > li { display: block ; position: relative;} */
+
+.social33{
+
+list-style: none;
+display: inline-flex;
+}
